@@ -41,9 +41,9 @@ begin
 
   writeln('Number of words:', numWords);
   if (numWords < lower_limit) then
-   writeln('According to your own standard, your passage fails.')
+   writeln('According to your own standard, your sentence is too short. Please try adding more adjectives or phrases to make it longer.')
    else if (numWords > upper_limit) then
-   writeln('According to your own standard, your passage scores high marks.')
+   writeln('According to your own standard, your sentence is too lengthy. Please try spliting the sentence into halves according to its meaning and content.')
    else
-    writeln('According to your own standard, your passage passes.')
+    writeln('According to your own standard, your sentence is fine.')
 end.
